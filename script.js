@@ -1,4 +1,3 @@
-
 var tiempo = new Date();
 var deltaTime = 0;
 
@@ -231,3 +230,4 @@ function GanarPuntos() {
 function Resetear() {
     location.reload();
 }
+
