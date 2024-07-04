@@ -1,20 +1,17 @@
 /* styles.css */
 
-* {
-    padding: 0;
-    margin: 0;
-}
+
 body {
-    height: 100vh;
+    
     background: #090627;
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 .contenedor {
-    width: 1520px;
+    width: 60%;
     height: 430px;
-    margin: 0 auto;
-    position: relative;
+    position: sticky;
     background: linear-gradient(#8de8f8, transparent) #ffffff;
     transition: background-color 1s linear;
     overflow: hidden;
@@ -43,7 +40,7 @@ body {
     animation: animarDino 0.25s steps(2) infinite;
 }
 .dino-estrellado {
-    background-position-x: -252px;
+    background-position-x: 200px;
 }
 .suelo {
     width: 200%;
@@ -102,7 +99,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100%;
+    width:80%;
     text-align: center;
     color: #7e928b;
     font-size: 30px;
@@ -131,3 +128,5 @@ body {
         background-position-x: -7px;
     }
 }
+
+
