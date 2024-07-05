@@ -15,7 +15,8 @@ body {
     background: linear-gradient(#8de8f8, transparent) #ffffff;
     transition: background-color 1s linear;
     overflow: hidden;
-    padding-bottom: 12px;
+    margin-top: 20px;
+    margin-bottom: 100px;
 }
 .mediodia {
     background-color: #6090e9;
